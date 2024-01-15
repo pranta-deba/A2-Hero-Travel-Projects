@@ -96,10 +96,15 @@
     .choose-card-container .choose-items {
         width: 100%;
     }
+
     .deals-discount .deals-card-container .deals-card-content {
         width: 100%;
         padding: 20px;
         margin: 90px 10px 50px 10px;
+    }
+
+    .deals-discount .all-pack-btn {
+        display: none;
     }
 }
 
@@ -128,9 +133,11 @@
         width: 100%;
         padding: 10px;
     }
+
     .banner-container form button {
         width: 100%;
     }
+
     .banner-container form input {
         width: 91%;
     }

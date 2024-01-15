@@ -73,6 +73,18 @@
         font-weight: 700;
         padding: 10px 20px;
     }
+    .destination-image-container {
+        display: grid;
+        grid-template-areas:
+            "grid-item1"
+            "grid-item2"
+            "grid-item3"
+            "grid-item4"
+            "grid-item5"
+            "grid-item6"
+            "grid-item7";
+        gap: 10px;
+    }
 }
 
 /* tab */
@@ -103,5 +115,17 @@
 
     .banner-container form input {
         width: 91%;
+    }
+    .destination-image-container {
+        display: grid;
+        grid-template-areas:
+            "grid-item1"
+            "grid-item2"
+            "grid-item3"
+            "grid-item4"
+            "grid-item5"
+            "grid-item6"
+            "grid-item7";
+        gap: 10px;
     }
 }

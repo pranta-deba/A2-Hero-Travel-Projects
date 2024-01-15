@@ -250,13 +250,14 @@ select {
     background: url("../assets/Images/Rectangle11.png");
 
 }
+
 .destination-image-container .grid-item1,
 .destination-image-container .grid-item2,
 .destination-image-container .grid-item3,
 .destination-image-container .grid-item4,
 .destination-image-container .grid-item5,
 .destination-image-container .grid-item6,
-.destination-image-container .grid-item7{
+.destination-image-container .grid-item7 {
     min-height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,6 +266,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .destination-image-container {
@@ -280,4 +282,167 @@ select {
     color: var(--white-color);
     font-size: 1.75rem;
     font-weight: 800;
+}
+
+/* why-choose-us */
+.why-choose-us {
+    margin-top: 80px;
+}
+
+.why-choose-us>h2 {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.why-choose-us>p {
+    color: var(--gray-color);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 14px 0;
+}
+
+.choose-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.choose-card-container .choose-items {
+    width: 40%;
+}
+
+.choose-card-container .choose-items:nth-child(odd) {
+    padding: 32px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+}
+
+.choose-card-container .choose-items:nth-child(even) {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-card-container .choose-items p {
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-card-container .choose-items h2 {
+    color: var(--black-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+/* deals-discount */
+.deals-discount {
+    margin-top: 80px;
+}
+
+.deals-discount h1 {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.deals-discount>p {
+    color: var(--gray-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin: 24px 0 48px 0;
+}
+
+.deals-discount .deals-card-container .deals-card-1 {
+    background: url("../assets/Images/Group39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    min-height: 500px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.deals-discount .deals-card-container .deals-card-2 {
+    background: url("../assets/Images/Group40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    min-height: 500px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.deals-discount .deals-card-container .deals-card-3 {
+    background: url("../assets/Images/Group39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    min-height: 500px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.deals-discount .deals-card-container .deals-card-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 40%;
+    padding: 50px;
+    margin: 50px 80px;
+}
+
+.deals-discount .deals-card-container .deals-card-content p:nth-child(1) {
+    color: var(--gray-color);
+    font-weight: 400;
+}
+
+.deals-discount .deals-card-container .deals-card-content p:nth-child(1) i {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
+.deals-discount .deals-card-container .deals-card-content h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.deals-discount .deals-card-container .deals-card-content p:nth-child(3) {
+    color: var(--gray-color);
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.deals-discount .deals-card-container .deals-card-content h4 {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.deals-discount .deals-card-container .deals-card-content button {
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 24px;
+    cursor: pointer;
+    margin-top: 24px;
 }

@@ -124,14 +124,15 @@
 
 .banner-container form input,
 select,
-button {
+.banner-container form button {
     padding: 10px;
     border-radius: 8px;
     width: 130px;
     cursor: pointer;
 }
 
-.banner-container form input::placeholder , select {
+.banner-container form input::placeholder,
+select {
     color: var(--gray-color);
     font-weight: 400;
 }
@@ -140,4 +141,55 @@ button {
     background-color: var(--primary-color);
     color: var(--white-color);
     font-weight: 700;
+}
+
+
+/* popular-tours */
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.popular-content {
+    padding-right: 40px;
+}
+
+.popular-content,
+.popular-img {
+    width: 50%;
+}
+
+.popular-content h2 {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.popular-content p,
+.popular-content ul {
+    color: var(--gray-color);
+    font-weight: 400;
+    line-height: 20px;
+    margin: 24px 0;
+    text-align: justify;
+}
+
+.popular-content ul {
+    padding-left: 30px;
+}
+
+.popular-content button{
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 800;
+    padding: 15px 24px;
+    cursor: pointer;
+}
+
+.popular-img img {
+    width: 100%;
 }

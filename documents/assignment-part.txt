@@ -16,3 +16,13 @@
 // Responsive Device : 
                 1. Mobile Device : 600px and down.
                 2. Desktop Device : 992px and up.
+
+
+    <i class="bi bi-search"></i>
+    <i class="bi bi-stopwatch-fill"></i>
+    <i class="bi bi-people-fill"></i>
+    <i class="bi bi-geo-alt-fill"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-github"></i>

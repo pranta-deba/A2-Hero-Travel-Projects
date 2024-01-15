@@ -18,6 +18,7 @@
                 2. Desktop Device : 992px and up.
 
 
+    
     <i class="bi bi-search"></i>
     <i class="bi bi-stopwatch-fill"></i>
     <i class="bi bi-people-fill"></i>

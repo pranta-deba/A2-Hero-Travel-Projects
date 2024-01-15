@@ -1,0 +1,32 @@
+/* Mobile */
+@media screen and (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+    .header-section {
+        margin-top: 20px;
+    }
+    .header-section nav>a {
+        font-size: 1.5rem;
+    }
+    .header-section nav ul .navbar-toggle {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .header-section nav ul .nav-item {
+        display: none;
+    }
+}
+/* tab */
+@media screen and (min-width:576px) and (max-width:768px){
+    .container {
+        width: 90%;
+    }
+    .header-section {
+        margin-top: 40px;
+    }
+    .header-section nav>a {
+        font-size: 1.5rem;
+    }
+    
+}

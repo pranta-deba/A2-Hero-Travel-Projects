@@ -16,4 +16,59 @@
 /* Target All */
 * {
     font-family: 'Mulish', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header-section */
+.header-section {
+    margin-top: 50px;
+}
+
+.header-section nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section nav>a {
+    display: flex;
+    align-items: center;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.header-section nav>a i,
+.logo-rav {
+    color: var(--primary-color);
+}
+
+.header-section nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-section nav ul li .nav-item {
+    color: var(--gray-color);
+    font-weight: 400;
+}
+
+.header-section nav ul .navbar-toggle {
+    display: none;
+}
+
+.header-section nav ul li .active {
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    font-weight: 700;
 }

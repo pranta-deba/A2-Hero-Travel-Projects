@@ -1,0 +1,18 @@
+// Main Mark :
+                1. Banner.
+                2. Our Popular Tours.
+                3. Choose Your Destination. (only image grid)
+                4. Why Choose Us.
+                5. Newsletter.
+                6. Footer
+
+// Bonus Mark : 
+                1. Navbar.
+                2. Choose Your Destination. (only grid text)
+                3. Extra Section. 
+                4. Deals And Discounts.
+                5. Simple Perfect Place To Get Lost.
+
+// Responsive Device : 
+                1. Mobile Device : 600px and down.
+                2. Desktop Device : 992px and up.

@@ -11,6 +11,10 @@
     --white-color: #FFF;
     --black-color: #131318;
     --gray-color: #5A5A5D;
+    --shadow-bg: rgba(255, 255, 255, 0.30);
+
+
+
 }
 
 /* Target All */
@@ -70,5 +74,70 @@
 .header-section nav ul li .active {
     color: var(--primary-color);
     font-size: 1.125rem;
+    font-weight: 700;
+}
+
+/* banner-container */
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../assets/Images/Group13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 120px 110px;
+    margin-top: 40px;
+}
+
+.banner-container .banner-text {
+    text-align: center;
+}
+
+.banner-container .banner-text h1 {
+    color: var(--white-color);
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-container .banner-text h4 {
+    margin-bottom: 15px;
+    color: var(--white-color);
+    font-size: 1.7rem;
+}
+
+.banner-container .banner-text h4>span {
+    font-size: 1.2rem;
+}
+
+.banner-container form {
+    background-color: var(--shadow-bg);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.banner-container form input,
+select,
+button {
+    padding: 10px;
+    border-radius: 8px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.banner-container form input::placeholder , select {
+    color: var(--gray-color);
+    font-weight: 400;
+}
+
+.banner-container form button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
     font-weight: 700;
 }

@@ -19,7 +19,7 @@
 
 
     
-    <i class="bi bi-search"></i>
+    
     <i class="bi bi-stopwatch-fill"></i>
     <i class="bi bi-people-fill"></i>
     <i class="bi bi-geo-alt-fill"></i>

@@ -3,30 +3,77 @@
     .container {
         width: 90%;
     }
+
     .header-section {
         margin-top: 20px;
     }
+
     .header-section nav>a {
         font-size: 1.5rem;
     }
+
     .header-section nav ul .navbar-toggle {
         display: block;
         font-size: 1.5rem;
     }
+
     .header-section nav ul .nav-item {
         display: none;
     }
+
+    .banner-container{
+        padding: 50px 20px;
+        margin-top: 20px;
+    }
+    .banner-container .banner-text h1 {
+        font-size: 2.5rem;
+    }
+    .banner-container .banner-text h4 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    .banner-container .banner-text h4>span {
+        font-size: 1rem;
+    }
+    .banner-container form {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        width: 70%;
+    }
+    .banner-container form *{
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-container form input{
+        width: 91%;
+    }
 }
+
 /* tab */
-@media screen and (min-width:576px) and (max-width:768px){
+@media screen and (min-width:576px) and (max-width:768px) {
     .container {
         width: 90%;
     }
+
     .header-section {
-        margin-top: 40px;
+        margin-top: 50px;
     }
+
     .header-section nav>a {
         font-size: 1.5rem;
     }
-    
+    .banner-container form {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        width: 70%;
+    }
+    .banner-container form *{
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-container form input{
+        width: 91%;
+    }
 }

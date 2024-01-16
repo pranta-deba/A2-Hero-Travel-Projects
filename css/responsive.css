@@ -142,6 +142,10 @@
     .footer-section{
         padding: 20px;
     }
+    .testimonials .reviews{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 /* tab */

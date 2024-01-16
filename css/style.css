@@ -463,3 +463,73 @@ select {
     cursor: pointer;
     margin-top: 24px;
 }
+
+/* simple-perfact-place */
+.simple-perfect-place {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.simple-perfect-place .perfect-place-content,
+.simple-perfect-place .perfect-place-video {
+    width: 50%;
+}
+
+.perfect-place-content>h2 {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-place-content>p {
+    color: var(--gray-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.perfect-place-content ul {
+    color: var(--black-color);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+.perfect-place-content ul li {
+    margin: 10px 0;
+}
+
+.perfect-place-content button {
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: var(--primary-color);
+    padding: 14px 35px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.perfect-place-video {
+    position: relative;
+}
+
+.perfect-place-video h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.perfect-place-video video {
+    border-radius: 16px;
+}

@@ -106,6 +106,18 @@
     .deals-discount .all-pack-btn {
         display: none;
     }
+    .simple-perfect-place {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .simple-perfect-place .perfect-place-content,
+    .simple-perfect-place .perfect-place-video {
+        width: 100%;
+    }
+    .perfect-place-video h3{
+        font-size: 1.25rem;
+    }
 }
 
 /* tab */
@@ -157,5 +169,17 @@
 
     .choose-card-container .choose-items {
         width: 100%;
+    }
+    .simple-perfect-place {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .simple-perfect-place .perfect-place-content,
+    .simple-perfect-place .perfect-place-video {
+        width: 100%;
+    }
+    .perfect-place-video h3{
+        font-size: 1.25rem;
     }
 }

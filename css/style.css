@@ -658,10 +658,11 @@ select {
     font-weight: 400;
 }
 
-.newsletter-img div p {
+.newsletter-img div p , .newsletter-img div h3{
     color: #FFF;
     font-weight: 800;
 }
+
 
 /* footer-section */
 .footer-section {

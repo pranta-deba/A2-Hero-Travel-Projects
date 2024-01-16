@@ -532,4 +532,91 @@ select {
 
 .perfect-place-video video {
     border-radius: 16px;
+    width: 100%;
+}
+
+/* newsletter */
+.newsletter {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.newsletter .newsletter-form-content,
+.newsletter .newsletter-img {
+    width: 50%;
+}
+
+.newsletter .newsletter-form-content {
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
+    padding: 28px;
+}
+
+.newsletter .newsletter-form-content h4 {
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.newsletter .newsletter-form-content p {
+    color: var(--gray-color);
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0;
+}
+
+.newsletter .newsletter-form-content form {
+    padding: 10px;
+}
+
+.newsletter .newsletter-form-content form>input {
+    width: 94%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 18px 0;
+    padding: 16px;
+}
+
+.newsletter .newsletter-form-content form button {
+    width: 100%;
+    color: var(--white-color);
+    font-size: 1.25rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background: var(--primary-color);
+    padding: 14px;
+}
+
+.newsletter-img {
+    background: url(../assets/Images/rrrrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.newsletter-img div {
+    display: inline-block;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-19deg);
+    padding: 20px;
+}
+.newsletter-img div p{
+    color: #FFF;
+    font-weight: 400;
+}
+.newsletter-img div p{
+    color: #FFF;
+font-weight: 800;
 }

@@ -16,11 +16,3 @@
 // Responsive Device : 
                 1. Mobile Device : 600px and down.
                 2. Desktop Device : 992px and up.
-
-
-    
-    
-    
-    
-    
-    

@@ -127,17 +127,20 @@
     }
 
     .newsletter .newsletter-form-content {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .newsletter .newsletter-img {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
 
     .newsletter .newsletter-form-content form>input {
         width: 88%;
+    }
+    .footer-section{
+        padding: 20px;
     }
 }
 
